@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iNeuron User Experience</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #fff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            width: 100%;
+            z-index: 100;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .navbar img {
+            height: 40px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin-left: 20px;
+            position: relative;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            padding: 8px 12px;
+            display: block;
+        }
+        .navbar ul li a:hover,
+        .navbar ul li:hover > a {
+            background-color: #f0f0f0;
+            border-radius: 4px;
+        }
+        .navbar ul li ul {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+            display: none;
+            min-width: 350px;
+            z-index: 200;
+        }
+        .navbar ul li ul li {
+            width: 100%;
+        }
+        .navbar ul li ul li a {
+            padding: 10px 15px;
+        }
+        .navbar ul li:hover ul {
+            display: block;
+        }
+        .background-image {
+            position: relative;
+            height: 100vh;
+            background-image: url('C:/Bharati/ineuron_project/static/images/Front page images_2.jpg'); /* Use the correct file name */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 77, 153, 0.5); /* Blue overlay */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .video-overlay h1 {
+            color: #e3e9ef; /* Orange color */
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.footer-content p {
+    margin: 0;
+    padding: 0;
+}
+.footer-content .footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.footer-content .footer-links a {
+    color: white;
+    text-decoration: none;
+}
+        .footer-content .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <img src="C:\Bharati\ineuron_project\static\images\iNeuron.jpeg" alt="iNeuron Logo"> <!-- Ensure this image is in the same folder -->
+        <ul>
+            <li>
+                <a href="#">Products</a>
+                <ul>
+                    <li><a href="ai-analysis.html">AI-Powered Data Analysis System</a></li>
+                </ul>
+            </li>
+            <li><a href="#">APIs</a></li>
+            <li><a href="#">Models</a></li>
+            <li><a href="#">Industries</a></li>
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#footer">About Us</a></li>
+            <li><a href="#">Connect</a></li>
+        </ul>
+    </div>
+
+    <div class="background-image">
+        <div class="video-overlay">
+            <h1>iNeuron</h1>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <div>
+                <p>OUR MISSION IS TO BUILD A PRODUCT-DRIVEN COMMUNITY AROUND THE GLOBE WHERE AN INDIVIDUAL CAN COLLABORATE, LEARN, SHARE, AND DEVELOP REAL-TIME USE CASES WITH TRENDING TECHNOLOGIES.</p>
+            </div>
+            <div>
+                <p>Contact Us:</p>
+                <p>51/27 Swamy Towers, 1st Floor, 1st Main, RJ Garden, ORR, Marathahalli, Bangalore - 560037</p>
+                <p>Email: contact@ineuron.ai</p>
+                <p>Phone: +91 91760 72251</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

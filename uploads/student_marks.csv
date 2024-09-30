@@ -1,0 +1,11 @@
+Student_Id,maths_marks,science_marks,cs_marks,kannada_marks,english_marks
+1,5.1,3.5,1.4,fail,8
+2,4.9,3,distinction,7.5,7.5
+3,4.7,pass,1.3,9,6
+4,second class,3.1,4,6,6.7
+5,5,3.6,6.5,8,first class
+6,5.4,3.9,7,distinction,8.9
+7,4.6,3.4,pass,5,9
+8,9,third class,1.5,3.9,8
+9,fail,2.9,1.4,4.5,2
+10,4.9,3.1,1.5,4,Pass
